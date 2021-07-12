@@ -1,0 +1,32 @@
+Install using tar archives﻿
+Download the tarball
+
+Unpack the pycharm-*.tar.gz file to a different folder, if your current Download folder doesn't support file execution:
+
+tar xzf pycharm-*.tar.gz -C <new_archive_folder>
+
+Copied!
+
+The recommended installation location according to the filesystem hierarchy standard (FHS) is /opt. To install PyCharm into this directory, enter the following command:
+
+sudo tar xzf pycharm-*.tar.gz -C /opt/
+
+Copied!
+
+To verify integrity of the downloaded archive, use the SHA checksum linked from the Download page.
+
+Switch to the bin subdirectory:
+
+cd <new archive folder>/pycharm-*/bin
+
+Copied!
+For example,
+
+cd /opt/pycharm-*/bin
+
+Copied!
+
+Run pycharm.sh from the bin subdirectory.
+
+sh pycharm.sh
+'aefes'
